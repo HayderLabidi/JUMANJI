@@ -1,0 +1,602 @@
+
+body {
+    margin: 0;
+   animation: changing 5s infinite linear alternate;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+@keyframes changing{
+    0%{
+background: #000000;
+    }
+    25%{
+background: #150813;
+    }
+    50%{
+background: #35364c;
+    }
+    75%{
+background: #454a61;
+    }
+    100%{
+background: #717386;
+    }
+}
+.top{
+    margin-top: 20px;
+}
+.images {
+	padding-bottom: 3rem;
+    gap: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.container{
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(255, 255, 255);
+}
+.images img{
+    transition: all 0.5s ease;
+    width: 100%;
+    -webkit-box-reflect: below 0px
+		linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
+}
+.featured {
+	-webkit-box-reflect: below 0px
+		linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));  
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+}
+.container img:hover {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.featured_wrapper {
+	position: relative;
+}
+.featured_wrapper img {
+	width: 100%;
+	height: 480px;
+	-o-object-fit: cover;
+	object-fit: cover;
+	-o-object-position: top;
+	object-position: top;
+}
+.title_wrapper {
+	position: absolute;
+	width: 100%;
+	left: 2rem;
+	bottom: 2rem;
+	padding: 20px 40px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.title_wrapper h1 {
+	width: 70%;
+    color: rgb(255, 255, 255);
+}
+.title_wrapper>.button-is-medium {
+	background: #161225 !important;
+	color: #fff !important;
+	font-size: 18px;
+	padding: 0.5rem 3rem;
+	outline: none;
+	border: 0 !important;
+    transition: all 0.5s ease;
+}
+.title_wrapper>.button-is-medium:hover{
+    background: #717386 !important;
+}
+.carousel-control-next .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.first-page {
+    width: 80%;
+height: 620px !important;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.second-page {
+    text-align: center;
+    padding: 60px 0px 20px 0px;
+}
+
+.third-page {
+    padding: 100px 0px 0px 0px;
+}
+
+.forth-page {
+    padding: 90px 0px 0px 0px;
+}
+
+.second-page>h2 {
+    font-size: 50px;
+    color: #ccccd2;
+    margin: 50px;
+}
+.third-page>h2{
+    font-size: 40px;
+    color: #ccccd2;
+}
+
+
+.title>h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-barre {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: #e1e1e1;
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.nav-container {
+    list-style: none;
+    float: right;
+    font-size: 25px;
+    margin: 30px;
+    color: #ffffff;
+}
+
+.btn-group>.dropdown-toggle {
+    position: relative;
+    display: none;
+    vertical-align: middle;
+}
+
+.nav-container>.A {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-container>.A:hover {
+    color: #454a61;
+}
+
+.page-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card1 {
+    width: 330px;
+    border: 1px #252438 solid;
+    border-radius: 40px;
+    box-shadow: 0 0 50px black;
+    overflow: hidden;
+}
+.card1:hover{
+    box-shadow:0 0 50px #ccccd2;
+}
+
+.card2 {
+    width: 330px;
+    border: 1px #252438 solid;
+    border-radius: 40px;
+    box-shadow: 0 0 50px black;
+    overflow: hidden;
+}
+.card2:hover{
+    box-shadow:0 0 50px #ccccd2;
+}
+
+.card3 {
+    width: 330px;
+    border: 1px #252438 solid;
+    border-radius: 40px;
+    box-shadow: 0 0 50px black;
+    overflow: hidden;
+}
+.card3:hover{
+    box-shadow:0 0 50px #ccccd2;
+}
+.card4{
+    width: 330px;
+    border: 1px #252438 solid;
+    border-radius: 40px;
+    box-shadow: 0 0 50px black;
+    overflow: hidden;
+}
+.card4:hover{
+    box-shadow:0 0 50px #ccccd2;
+}
+
+.card-image1 {
+    background-image: url(https://images8.alphacoders.com/105/thumbbig-1050221.webp);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-image2 {
+    background-image: url(https://images4.alphacoders.com/105/thumbbig-1050223.webp);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-image3 {
+    background-image: url(https://images3.alphacoders.com/105/thumbbig-1050224.webp);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    border-radius: 10px 10px 0 0;
+}
+.card-image4{
+    background-image: url(https://www.looper.com/img/gallery/jack-black-suggested-the-title-for-jumanji-welcome-to-the-jungle/intro-1505916575.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+
+
+.third-page>h2 {
+    text-align: center;
+    color: #ccccd2;
+    font-size: 50px;
+}
+
+.forth-page>h2 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    padding: 10px;
+}
+
+video {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background {
+    display: flex;
+    min-height: 50vh;
+    justify-content: center
+}
+
+.container1 {
+    flex: 0 30px;
+    display: flex;
+}
+
+.screen {
+    position: relative;
+    background: #35364c;
+    border-radius: 15px 0px 0px 15px;
+    width: 50vw;
+    height: 550px;
+}
+
+
+.screen-body {
+    display: flex;
+}
+
+.screen-body-item {
+    flex: 1;
+    padding: 50px;
+}
+
+.screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.app-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 25px;
+    height: 4px;
+    background: #ffffff;
+}
+
+.app-contact {
+    margin-top: auto;
+    font-size: 8px;
+    color: #888;
+}
+
+.app-form-group {
+    margin-bottom: 15px;
+}
+
+.app-form-group.message {
+    margin-top: 10px;
+}
+
+.app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+    color: #666;
+}
+
+.app-form-control:focus {
+    border-bottom-color: #ddd;
+}
+
+.app-form-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+.app-form-button:hover {
+    color: #45487b;
+}
+.img-contact {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/595/475/583/dwayne-johnson-jumanji-welcome-to-the-jungle-jack-black-karen-gillan-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 549px;
+    border-radius: 0px 20px 20px 0px;
+}
+.fin>h2{
+    font-size: 40px;
+    color: #9f9fac;
+   text-align: center;
+    margin-top: 80px;
+}
+.fin{
+    background-color:rgba(35, 36, 48, 0.8) #35364c;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+}
+.fa-brands:hover{
+color: white;
+}
+.icons {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .screen-body {
+        flex-direction: column;
+    }
+
+    .screen-body-item.left {
+        margin-bottom: 30px;
+    }
+
+    .app-title {
+        flex-direction: row;
+    }
+
+    .app-title span {
+        margin-right: 12px;
+    }
+
+    .app-title:after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .screen-body {
+        padding: 40px;
+    }
+
+    .screen-body-item {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-barre {
+        width: 100%;
+        flex-direction: row;
+        padding: 0 20px;
+
+    }
+
+    .nav-container {
+        display: none;
+    }
+
+    .btn-group>.dropdown-toggle {
+        display: block;
+        background-color: #454a61;
+        color: white;
+        border-radius: 5px;
+        padding: 15px 20px;
+        border: none;
+    }
+
+    .btn-group>.dropdown-toggle:active {
+
+        outline: 3px solid;
+    }
+
+    .cards-container {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0.2em 0;
+    }
+
+    .first-page {
+        width: 100%;
+        height: 100% !important;
+    }
+    .third-page{
+        width: 100%;
+
+    }
+    .page-container {
+        width: 19%;
+        display: block;
+        margin: 10px;
+        text-align: center;
+
+
+    }
+
+    .page-container>.card1 {
+        width: 500%;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .page-container>.card2 {
+        width: 500%;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+    }
+
+    .page-container>.card3 {
+        width: 500%;
+        flex-direction: column;
+
+    }
+    .page-container>.card4{
+        width: 500%;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .nav-barre>.title>h1 {
+        font-size: 30px;
+    }
+
+    .second-page>h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .third-page>h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .forth-page>h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .img-contact {
+        display: none;
+    }
+ .screen{
+    border-radius: 15px;
+    width: 90vw;
+}
+    
+}
+@media (max-width: 768px) {
+	.title_wrapper {
+		text-align: center;
+		left: 0;
+	}
+	.title_wrapper h1 {
+		font-size: 32px !important;
+		width: 100%;
+	}
+	.container {
+		padding: 20px;
+	}
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+}
+@media (max-width: 480px) {
+	.column.is-one-quarter img {
+		width: 100%;
+		
+	}
+}
