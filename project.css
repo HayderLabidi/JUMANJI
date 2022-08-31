@@ -9,32 +9,31 @@ body {
 }
 @keyframes changing{
     0%{
-background: #000000;
+background: #302824;
     }
     25%{
-background: #150813;
+background: #68664f;
     }
     50%{
-background: #35364c;
+background: #8b6c4f;
     }
     75%{
-background: #454a61;
+background: #9a8866;
     }
     100%{
-background: #717386;
+background: #b9af96;
     }
 }
 .top{
     margin-top: 20px;
 }
 .images {
-	padding-bottom: 3rem;
+	padding-bottom: 6rem;
     gap: 30px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    
     
 }
 .container{
@@ -49,14 +48,6 @@ color: rgb(255, 255, 255);
     width: 100%;
     -webkit-box-reflect: below 0px
 		linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
-}
-.featured {
-	-webkit-box-reflect: below 0px
-		linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));  
-	-webkit-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-
 }
 .container img:hover {
 	-webkit-transform: scale(1.1);
@@ -99,24 +90,7 @@ color: rgb(255, 255, 255);
 }
 .title_wrapper>.button-is-medium:hover{
     background: #717386 !important;
-}
-.carousel-control-next .carousel-control-prev {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    background: 0 0;
-    border: 0;
-    opacity: .5;
-    transition: opacity .15s ease;
-}
+}   
 .first-page {
     width: 80%;
 height: 620px !important;
@@ -152,6 +126,7 @@ height: 620px !important;
 .title>h1 {
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #382f25;
 
 }
 
@@ -159,7 +134,7 @@ height: 620px !important;
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
-    background-color: #e1e1e1;
+    background-image: linear-gradient(to left, #cfc8bd, #c8bfb0, #c1b7a3, #b9af96, #b1a78a, #aba081, #a59877, #9f916e, #9a8866, #957e5e, #907556, #8b6c4f);
     position: fixed;
     width: 100vw;
     height: 70px;
@@ -173,7 +148,7 @@ height: 620px !important;
     float: right;
     font-size: 25px;
     margin: 30px;
-    color: #ffffff;
+    color: #56534d;
 }
 
 .btn-group>.dropdown-toggle {
@@ -415,7 +390,7 @@ justify-content: center;
 }
 .fin>h2{
     font-size: 40px;
-    color: #9f9fac;
+    color: white;
    text-align: center;
     margin-top: 80px;
 }
