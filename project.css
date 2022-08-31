@@ -124,9 +124,10 @@ height: 620px !important;
 
 
 .title>h1 {
-    font-size: 50px;
+    font-size: 65px;
     font-family: Arial, Helvetica, sans-serif;
     color: #382f25;
+    height: 70px;
 
 }
 
@@ -137,7 +138,7 @@ height: 620px !important;
     background-image: linear-gradient(to left, #cfc8bd, #c8bfb0, #c1b7a3, #b9af96, #b1a78a, #aba081, #a59877, #9f916e, #9a8866, #957e5e, #907556, #8b6c4f);
     position: fixed;
     width: 100vw;
-    height: 70px;
+    height: 68px;
     align-items: center;
     box-sizing: border-box;
     z-index: 2;
