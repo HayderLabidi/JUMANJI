@@ -125,21 +125,21 @@ body {
 }
 
 .film1 {
-  margin-left: 14.4vw;
-  border-radius: 120px 0px 0px 120px;
-}
-
-.film1 img {
-  border-radius: 120px 0px 0px 120px;
-}
-
-.film2 {
   margin-right: 14.4vw;
   border-radius: 0px 120px 120px 0px;
 }
 
-.film2 img {
+.film1 img {
   border-radius: 0px 120px 120px 0px;
+}
+
+.film2 {
+  margin-right: 0vw;
+  border-radius: 120px 0px 0px 120px;
+}
+
+.film2 img {
+  border-radius: 120px 0px 0px 120px;
 }
 
 .watch2 {
@@ -147,12 +147,12 @@ body {
 }
 
 .film3 {
-  margin-left: 14.4vw;
-  border-radius: 120px 0px 0px 120px;
+  margin-right: 14.4vw;
+  border-radius: 0px 120px 120px 0px;
 }
 
 .film3 img {
-  border-radius: 120px 0px 0px 120px;
+  border-radius: 0px 120px 120px 0px;
 }
 
 .watch {
@@ -741,20 +741,20 @@ iframe {
   }
 
   .film1 {
-    margin-left: 10vw;
-    border-radius: 120px 0px 0px 120px;
-    width: 90%;
-  }
-
-  .film2 {
     margin-right: 10vw;
     border-radius: 0px 120px 120px 0px;
     width: 90%;
   }
 
-  .film3 {
-    margin-left: 4.5vw;
+  .film2 {
+    margin-right: 0vw;
     border-radius: 120px 0px 0px 120px;
+    width: 90%;
+  }
+
+  .film3 {
+    margin-right: 10vw;
+    border-radius: 0px 120px 120px 0px;
     width: 95%;
   }
 
