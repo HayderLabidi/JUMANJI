@@ -192,7 +192,7 @@ body {
 }
 
 .forth-page {
-  padding: 55px 0px 0px 0px;
+  padding: 60px 0px 0px 0px;
 }
 
 .second-page > h2 {
@@ -607,7 +607,7 @@ iframe {
     font-size: 45px;
   }
   .first-page>.about> h1{
-    font-size: 12vw;
+    font-size: 13vw;
   }
 
   .second-page > h2 {
@@ -659,18 +659,35 @@ iframe {
   }
   .text{
     width: 80%;
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   .text>h5{
     font-size: 2vw;
     width: 37.5vw;
   }
   .text>h2{
-    font-size: small;
+    font-size: 4vw;
   }
   .film img{
-    width: 45%;
-    
+    width: 50%;
+}
+.film1{
+  margin-left: 10vw;
+  border-radius: 120px 0px 0px 120px;
+  width: 90%;
+}
+.film2{
+  margin-right: 10vw;
+  border-radius: 0px 120px 120px 0px;
+  width: 90%;
+}
+.film3{
+  margin-left: 4.5vw;
+  border-radius: 120px 0px 0px 120px;
+  width: 95%;
+}
+.film3 img{
+  width: 55%;
 }
 .watch{
   font-size: 3vw;
