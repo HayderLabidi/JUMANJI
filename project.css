@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 !important;
   animation: changing 5s infinite linear alternate;
   background-repeat: no-repeat;
   overflow-x: hidden;
@@ -34,7 +34,7 @@ body {
 
 .images {
   padding-bottom: 6rem;
-  gap: 30px;
+  gap: 25px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -51,8 +51,48 @@ body {
 
 .images img {
   transition: all 0.5s ease;
-  width: 22vw;
   -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 10vw; 
+  height: 10vw; 
+  overflow: auto;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9);
+  
+}
+.modal-content {
+   margin: auto;
+   margin-top: -4.5vw;
+  display: block;
+  width: 100% !important;
+  max-width: 50vw;
+  transition: all 0s;
+  
+}
+.modal-content {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+.close{
+  margin-left: 70vw;
 }
 
 .container img:hover {
@@ -140,10 +180,6 @@ body {
 
 .film2 img {
   border-radius: 120px 0px 0px 120px;
-}
-
-.watch2 {
-  margin-left: 45vw;
 }
 
 .film3 {
@@ -448,17 +484,6 @@ iframe {
   font-size: 26px;
 }
 
-.app-title:after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  width: 25px;
-  height: 4px;
-  background: #ffffff;
-}
-
 .app-contact {
   margin-top: auto;
   font-size: 8px;
@@ -534,9 +559,11 @@ iframe {
   padding: 0px 0px 10px 0px;
   text-align: center;
 }
-.fa-brands{
+
+.fa-brands {
   color: #161225;
 }
+
 .fa-brands:hover {
   color: white;
 }
@@ -713,13 +740,14 @@ iframe {
   .images {
     display: flex;
     flex-wrap: wrap;
-    width: 90vw;
+    width: 0;
     margin-left: auto;
     margin-right: auto;
   }
 
   .column.is-one-quarter img {
-    width: 100%;
+    width: 80vw !important;
+    height: 60vw !important;
   }
 
   .text {
@@ -770,4 +798,11 @@ iframe {
   .watch2 {
     margin-left: 0vw;
   }
+  .modal-content{
+    max-width: 90vw !important;
+  }
+  .close{
+    margin-left: 90vw;
+  }
+  
 }
