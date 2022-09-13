@@ -144,6 +144,7 @@ body {
 }
 
 .has-text-white {
+  font-size: 4vw;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #161225;
   margin: 10px;
@@ -735,6 +736,9 @@ iframe {
 
   .container {
     padding: 20px;
+  }
+  .has-text-white{
+    font-size: 10vw;
   }
 
   .images {
