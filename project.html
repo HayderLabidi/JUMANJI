@@ -9,14 +9,12 @@
   <link rel="stylesheet" href="project.css" />
   <link rel="icon"
     href="https://www.freepnglogos.com/uploads/j-letter-png/letter-j-large-golden-letter-quot-quot-image-25.png"
-    type="image/png/gif">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    type="image/png/gif" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
-  <script src="https://kit.fontawesome.com/51e8894598.js" crossorigin="anonymous"></script>
 
-  <head>
-  </head>
+</head>
 
 <body>
   <nav class="nav-barre" id="navbar">
@@ -90,35 +88,35 @@
       </div>
       <div class="images">
         <div class="column is-one-quarter">
-          <img src="https://images6.alphacoders.com/105/1056037.jpg" id="myImg"
-            style="width:22.5vw;max-width:600px;height: 18vw;" />
+          <img class="pointer" src="https://images6.alphacoders.com/105/1056037.jpg" id="myImg"
+            style="width: 22.5vw; max-width: 600px; height: 18vw" />
           <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
+            <span class="close pointer">&times;</span>
+            <img class="modal-content" id="img01" />
           </div>
         </div>
         <div class="column is-one-quarter">
-          <img src="https://images4.alphacoders.com/105/1056036.jpg" style="width:22.5vw;max-width:600px;height: 18vw;"
-            id="myImg2" />
+          <img class="pointer" src="https://images4.alphacoders.com/105/1056036.jpg"
+            style="width: 22.5vw; max-width: 600px; height: 18vw" id="myImg2" />
           <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
+            <span class="close pointer">&times;</span>
+            <img class="modal-content" id="img01" />
           </div>
         </div>
         <div class="column is-one-quarter">
-          <img src="https://images6.alphacoders.com/105/1054755.jpg" style="width:22.5vw;max-width:600px;height: 18vw;"
-            id="myImg3" />
+          <img class="pointer" src="https://images6.alphacoders.com/105/1054755.jpg"
+            style="width: 22.5vw; max-width: 600px; height: 18vw" id="myImg3" />
           <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
+            <span class="close pointer">&times;</span>
+            <img class="modal-content" id="img01" />
           </div>
         </div>
         <div class="column is-one-quarter">
-          <img src="https://images2.alphacoders.com/102/1027354.jpg" style="width:22.5vw;max-width:600px;height: 18vw;"
-            id="myImg4" />
+          <img class="pointer" src="https://images2.alphacoders.com/102/1027354.jpg"
+            style="width: 22.5vw; max-width: 600px; height: 18vw" id="myImg4" />
           <div id="myModal" class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content" id="img01">
+            <span class="close pointer">&times;</span>
+            <img class="modal-content" id="img01" />
           </div>
         </div>
       </div>
@@ -126,7 +124,8 @@
   </div>
   <div class="first-page" id="first-page">
     <div class="about">
-      <h1><i class="fa-solid fa-film fa-1x"></i> Film series</h1><br><br>
+      <h1><i class="fa-solid fa-film fa-1x"></i> Film series</h1>
+      <br /><br />
       <div class="film film1" data-aos="fade-right" data-aos-duration="1000">
         <div class="text">
           <br />
@@ -148,7 +147,6 @@
           </button>
         </div>
         <img src="https://fr.web.img3.acsta.net/pictures/14/08/14/12/20/198981.jpg" alt="film1" width="400" />
-
       </div>
       <div class="film film2" data-aos="fade-right" data-aos-duration="1000">
         <img
@@ -324,6 +322,7 @@
     </div>
     <h5>© 2022 Copyright by Hayder Labidi.</h5>
   </div>
+  <script src="https://kit.fontawesome.com/51e8894598.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
@@ -340,36 +339,36 @@
     img.onclick = function () {
       modal.style.display = "block";
       modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-    }
+
+    };
     var img = document.getElementById("myImg2");
     var modalImg = document.getElementById("img01");
     var captionText = document.getElementById("caption");
     img.onclick = function () {
       modal.style.display = "block";
       modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-    }
+
+    };
     var img = document.getElementById("myImg3");
     var modalImg = document.getElementById("img01");
     var captionText = document.getElementById("caption");
     img.onclick = function () {
       modal.style.display = "block";
       modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-    }
+
+    };
     var img = document.getElementById("myImg4");
     var modalImg = document.getElementById("img01");
     var captionText = document.getElementById("caption");
     img.onclick = function () {
       modal.style.display = "block";
       modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-    }
+
+    };
     var span = document.getElementsByClassName("close")[0];
     span.onclick = function () {
       modal.style.display = "none";
-    }
+    };
   </script>
 </body>
 
