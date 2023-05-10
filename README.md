@@ -11,7 +11,7 @@
 
 - ⚡ Fun fact **One piece will be the king of Pirates haha**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me: Hayderlabidi2001@gmail.com</h3>
 <p align="left">
 </p>
 
